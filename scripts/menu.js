@@ -2,6 +2,7 @@
 const gameName = document.querySelector('#game-name');
 const playBtn = document.querySelector("#play-btn");
 const helpBtn = document.querySelector("#help-btn");
+const menuContainer = document.querySelector("#menu-container");
 
 const bubble = new Audio('../assets/sound/bubble.mp3');
 const spaceMusic = new Audio('../assets/sound/space.mp3')
@@ -30,6 +31,7 @@ function gameStart() {
     gameName.classList.add("menu-to-game-txt");
     playBtn.classList.add("menu-to-game-play-btn");
     helpBtn.classList.add("menu-to-game-help-btn");
+    menuContainer.classList.add("menu-to-game-bg");
     setTimeout(() => {
         window.location.href = "../pages/game.html";
     }, 2000);
