@@ -1,0 +1,116 @@
+/* Buttons onload */
+.anima-btn {
+    animation: anima-btn 500ms ease-in-out forwards;
+}
+
+/* Game title onload */
+.anima-txt {
+    animation: anima-txt 2s ease-in-out forwards;
+}
+
+/* Transition menu to game */
+.menu-to-game-txt {
+    animation: menu-to-game-txt 2s ease-in-out forwards;
+}
+.menu-to-game-play-btn {
+    animation: menu-to-game-play-btn 2s ease-in-out forwards;
+}
+.menu-to-game-help-btn {
+    animation: menu-to-game-help-btn 2s ease-in-out forwards;
+}
+
+.anima-click {
+    animation: anima-click 300ms ease-in-out;
+}
+
+.anima-scale {
+    animation: anima-scale 300ms ease-in-out;
+}
+
+@keyframes anima-btn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.3);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes anima-txt {
+
+    0% {
+        transform: translateX(-400px);
+        opacity: 0;
+    }
+    25% {
+        transform: translateX(300px);
+        opacity: 1;
+    }
+    50% {
+        transform: translateX(-200px);
+        
+    }
+    75% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes menu-to-game-txt {
+
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+
+}
+@keyframes menu-to-game-play-btn {
+
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-400px);
+        opacity: 0;
+    }
+
+}
+@keyframes menu-to-game-help-btn {
+
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+
+}
+
+@keyframes anima-click {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
