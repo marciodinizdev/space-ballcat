@@ -3,6 +3,8 @@ const gameName = document.querySelector('#game-name');
 const playBtn = document.querySelector("#play-btn");
 const helpBtn = document.querySelector("#help-btn");
 const menuContainer = document.querySelector("#menu-container");
+const helpModal = document.querySelector("#help-modal");
+const closeModalBtn = document.querySelector('#close-modal-btn');
 
 const bubble = new Audio('../assets/sound/bubble.mp3');
 const spaceMusic = new Audio('../assets/sound/space.mp3')
@@ -38,7 +40,10 @@ function gameStart() {
 }
 
 function helpStart() {
-    
+    helpModal.classList.remove('hidden');
+}
+function closeModal() {
+    helpModal.classList.add('hidden');
 }
 
 // Start Menu

@@ -8,7 +8,7 @@
     padding: 1rem;
 }
 
-button {
+.menu-btn {
     font-size: 2rem;
     font-weight: bold;
     font-family: "Englebert", cursive;
@@ -25,7 +25,7 @@ button {
 
 }
 
-button:hover {
+.menu-btn:hover {
     
     scale: 1.2;
 }

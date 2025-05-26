@@ -34,19 +34,36 @@
 
         <!-- Start Button -->
         <section id="btn-area">
-            <button id="play-btn" class="invisible">
+            <button id="play-btn" class="menu-btn invisible">
                 P L A Y
                 <span class="material-symbols-rounded">
                     play_circle
                 </span>
             </button>
-            <button id="help-btn" class="invisible">
+            <button id="help-btn" class="menu-btn invisible">
                 H E L P
                 <span class="material-symbols-rounded">
                     help
                 </span>
             </button>
         </section>
+    </div>
+    <div id="help-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-text-content">
+                <button onclick="closeModal()" id="close-modal" class="close-modal-btn">
+                    <span class="material-symbols-rounded">
+                        close
+                    </span>
+                </button>
+                <h2>💡<br>Help</h2>
+                <p>Hint 1: Hints will be here for hel users</p>
+                <p>Hint 2: Hints will be here for hel users</p>
+                <p>Hint 3: Hints will be here for hel users</p>
+                <button onclick="closeModal()" id="ok-modal" class="close-modal-btn">O K</button>
+            </div>
+
+        </div>
     </div>
 
     <script src="../scripts/menu.js"></script>
