@@ -7,7 +7,7 @@ const helpModal = document.querySelector("#help-modal");
 const closeModalBtn = document.querySelector('#close-modal-btn');
 
 const bubble = new Audio('../assets/sound/bubble.mp3');
-const spaceMusic = new Audio('../assets/sound/space.mp3')
+const spaceMusic = new Audio('../assets/sound/space.mp3');
 
 function playBubble() {
     bubble.currentTime = 0;
@@ -19,6 +19,14 @@ function playSpace() {
     spaceMusic.play();
 }
 
+function blurRemove() {
+    menuContainer.classList.remove('filter-blur');
+    menuContainer.classList.add('blur-remove');
+    setTimeout(() => {
+        menuContainer.classList.remove('blur-remove');
+    }, 500);
+}
+
 function animaClick(element) {
     bubble.play();
     element.classList.remove("anima-click");
@@ -28,27 +36,10 @@ function animaClick(element) {
     }, 50);
 }
 
-function gameStart() {
-    
-    gameName.classList.add("menu-to-game-txt");
-    playBtn.classList.add("menu-to-game-play-btn");
-    helpBtn.classList.add("menu-to-game-help-btn");
-    menuContainer.classList.add("menu-to-game-bg");
-    setTimeout(() => {
-        window.location.href = "../pages/game.html";
-    }, 2000);
-}
-
-function helpStart() {
-    helpModal.classList.remove('hidden');
-}
-function closeModal() {
-    helpModal.classList.add('hidden');
-}
-
 // Start Menu
 function startMenuAnimations() {
     
+    blurRemove();
     gameName.classList.add('anima-txt');
     playSpace();
     setTimeout(() => {
@@ -64,6 +55,25 @@ function startMenuAnimations() {
         }, 500);
     }, 500);
 
+}
+
+function gameStart() {
+    
+    gameName.classList.add("scale-up");
+    playBtn.classList.add("translate-left");
+    helpBtn.classList.add("translate-right");
+    menuContainer.classList.add("blur-add");
+    setTimeout(() => {
+        window.location.href = "./explore.html";
+    }, 1000);
+
+}
+
+function helpStart() {
+    helpModal.classList.remove('hidden');
+}
+function closeModal() {
+    helpModal.classList.add('hidden');
 }
 
 playBtn.addEventListener('mouseenter', playBubble);

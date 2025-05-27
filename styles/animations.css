@@ -9,20 +9,23 @@
 }
 
 /* Transition menu to game */
-.menu-to-game-txt {
-    animation: menu-to-game-txt 2s ease-in-out forwards;
+.scale-up {
+    animation: scale-up 2s ease-in-out forwards;
 }
 
-.menu-to-game-play-btn {
-    animation: menu-to-game-play-btn 2s ease-in-out forwards;
+.translate-left {
+    animation: translate-left 2s ease-in-out forwards;
 }
 
-.menu-to-game-help-btn {
-    animation: menu-to-game-help-btn 2s ease-in-out forwards;
+.translate-right {
+    animation: translate-right 2s ease-in-out forwards;
 }
 
-.menu-to-game-bg {
-    animation: menu-to-game-bg 3s ease-in-out forwards;
+.blur-add {
+    animation: blur-add 1s ease-in-out forwards;
+}
+.blur-remove {
+    animation: blur-remove 0.5s ease-in-out forwards;
 }
 
 .anima-click {
@@ -78,7 +81,7 @@
 
 }
 
-@keyframes menu-to-game-txt {
+@keyframes scale-up {
 
     0% {
         transform: scale(1);
@@ -92,7 +95,7 @@
 
 }
 
-@keyframes menu-to-game-play-btn {
+@keyframes translate-left {
 
     0% {
         transform: translateX(0);
@@ -106,7 +109,7 @@
 
 }
 
-@keyframes menu-to-game-help-btn {
+@keyframes translate-right {
 
     0% {
         transform: translateX(0);
@@ -134,14 +137,22 @@
     }
 }
 
-@keyframes menu-to-game-bg {
+@keyframes blur-add {
     0% {
-        
         filter: none;
     }
     100% {
-        
         filter:blur(30px);
+    }
+
+}
+
+@keyframes blur-remove {
+    0% {
+        filter:blur(30px);
+    }
+    100% {
+        filter: none;
     }
 
 }

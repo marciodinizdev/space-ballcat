@@ -17,6 +17,27 @@
 .hidden {
     visibility: hidden;
 }
+.filter-blur {
+    filter: blur(30px);
+}
+
+/* Mobile */
+.gameboard {
+    width: 100%;
+    max-width: 414px;
+    height: 100vh;
+    margin: 0 auto;
+    
+    
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .gameboard {
+        max-width: 100vw;
+        height: 100vh;
+    }
+}
 
 /* Modal */
 .modal {
