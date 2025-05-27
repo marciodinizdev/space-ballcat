@@ -8,7 +8,13 @@ h1 {
     font-size: 4rem;
     text-align: center;
     text-shadow: 1px 1px 10px pink;
-
+    line-height: 50px;
+    
+}
+h1 span {
+    color: #CA81C7;
+    font-size: 5rem;
+    text-shadow: 1px 1px 10px black;
 }
 #cat-logo {
     position: absolute;
