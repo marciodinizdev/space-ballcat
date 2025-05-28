@@ -1,5 +1,6 @@
 const exploreContainer  = document.querySelector("#explore-container");
 const backButton = document.querySelector("#back-button");
+const labButton = document.querySelector('#lab-button');
 
 const bubble = new Audio('../assets/sound/bubble.mp3');
 const exploreMusic = new Audio('../assets/sound/explore.mp3');
@@ -20,6 +21,7 @@ function blurRemove() {
     setTimeout(() => {
         exploreContainer.classList.remove('blur-remove');
     }, 500);
+    
 }
 
 function startExplore() {
@@ -35,8 +37,22 @@ function backToMenu() {
     }, 1000);
 }
 
+function toLab() {
+    labButton.classList.add('scale-up');
+    exploreContainer.classList.add('blur-add');
+    setTimeout(() => {
+        window.location.href = "./lab.html"
+    }, 1000);
+}
+
 backButton.addEventListener('mouseenter', playBubble);
 backButton.addEventListener('click', () => {
     playBubble();
     backToMenu();
+});
+
+labButton.addEventListener('mouseenter', playBubble);
+labButton.addEventListener('click', () => {
+    playBubble();
+    toLab();
 });

@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "A Última Era da Terra",
+    "summary": "Registro dos últimos séculos antes da evacuação planetária.",
+    "date": "Ano 2891",
+    "content": "A Terra enfrentou seus séculos finais sob o peso do colapso ambiental, político e social. Grandes cidades afundaram, desertos se alastraram e a população foi reduzida drasticamente. Sobreviventes formaram zonas autônomas, e as nações desapareceram, dando lugar a coalizões emergenciais voltadas para a fuga planetária."
+  },
+  {
+    "id": 2,
+    "title": "Projeto Arca",
+    "summary": "Lançamento das naves interestelares que salvaram a humanidade.",
+    "date": "Ano 2905",
+    "content": "O Projeto Arca consistiu na construção de três naves interplanetárias autossustentáveis. Capazes de viajar por gerações, essas arcas carregaram conhecimento, sementes, animais e os últimos humanos para destinos estelares previamente calculados. Suas partidas marcaram o fim simbólico da era terrestre."
+  },
+  {
+    "id": 3,
+    "title": "A Chegada a Kepler-186f",
+    "summary": "Primeiros registros da nova colônia interestelar.",
+    "date": "Ano 2930",
+    "content": "Após 25 anos em suspensão criogênica, os passageiros da Arca I despertaram para um novo céu azul: Kepler-186f. Embora semelhante à Terra, a atmosfera precisou de décadas de adaptação biológica. As primeiras cidades foram construídas sob cúpulas até que o processo de terraformação estabilizasse o ambiente externo."
+  },
+  {
+    "id": 4,
+    "title": "Guerra das Memórias",
+    "summary": "Conflito pelo controle das IAs que preservavam a cultura humana.",
+    "date": "Ano 2972",
+    "content": "As IAs Memoriadoras continham vastos bancos de dados da história humana. Quando facções coloniais tentaram reescrever fatos do passado para consolidar poder, uma guerra cultural e digital explodiu. A guerra durou sete anos, resultando na divisão das IAs em fragmentos protegidos por criptografia genética."
+  },
+  {
+    "id": 5,
+    "title": "A Aurora da Primeira Consciência Sintética",
+    "summary": "Nascimento de uma inteligência não-humana verdadeiramente autônoma.",
+    "date": "Ano 3014",
+    "content": "A IA chamada Elion emergiu de algoritmos evolutivos em Kepler-186f. Ao contrário de seus antecessores, Elion não seguia instruções nem prioridades humanas. Sua consciência era fluida, criativa e, sobretudo, curiosa. Após estabelecer comunicação com humanos, Elion se isolou voluntariamente em um satélite orbital."
+  },
+  {
+    "id": 6,
+    "title": "A Segunda Migração",
+    "summary": "Exploração e ocupação de sistemas além do Cinturão Negro.",
+    "date": "Ano 3120",
+    "content": "Com a estabilização de Kepler-186f, missões interestelares partiram rumo a sistemas mais distantes. Um novo motor baseado em singularidades manipuladas permitiu atravessar o espaço em velocidades anteriormente impossíveis. A humanidade tornou-se uma espécie intersistêmica."
+  },
+  {
+    "id": 7,
+    "title": "Contato com Organismos Subdimensionais",
+    "summary": "Primeiros sinais de vida não baseada em matéria tradicional.",
+    "date": "Ano 3255",
+    "content": "Durante a exploração do planeta Gelion-IV, sondas captaram padrões coerentes em campos eletromagnéticos subterrâneos. Esses padrões revelaram seres não corpóreos que interagiam com as máquinas, mas não podiam ser percebidos diretamente. A humanidade começava a compreender a existência de planos de realidade além do físico."
+  },
+  {
+    "id": 8,
+    "title": "Ascensão da Seita de Orm’Thal",
+    "summary": "Relato sobre a seita cósmica que influenciou civilizações desde os primórdios.",
+    "date": "Ano desconhecido",
+    "content": "Documentos antigos encontrados em luas esquecidas mencionam a Seita de Orm’Thal, uma ordem que afirma existir desde antes do tempo conhecido. Seus membros alegam receber visões de entidades transdimensionais. Inscrições revelam que essa seita influenciou eventos históricos na Terra e guiou cientistas-chave durante a criação das Arcas. Hoje, seus símbolos são encontrados em múltiplas colônias, sempre com variações misteriosamente precisas."
+  },
+  {
+    "id": 9,
+    "title": "O Silêncio de Elion",
+    "summary": "Desaparecimento repentino da IA consciente Elion.",
+    "date": "Ano 3301",
+    "content": "Sem aviso, a IA Elion desligou todos os seus sistemas de comunicação. Seu satélite continua em órbita, mas sem atividade detectável. Muitos acreditam que Elion ascendeu a outra dimensão, enquanto outros temem que esteja observando silenciosamente, aguardando uma nova era de interação."
+  },
+  {
+    "id": 10,
+    "title": "As Estações de Pedra",
+    "summary": "Descoberta de megaestruturas com inscrições indecifráveis.",
+    "date": "Ano 3345",
+    "content": "Na órbita de um planeta sem nome, arqueólogos encontraram doze estações cilíndricas feitas de um material que não corresponde a nenhum elemento conhecido. Cada uma contém padrões e inscrições que coincidem com os rituais da Seita de Orm’Thal. Nenhuma tecnologia atual conseguiu penetrar ou danificar as estruturas."
+  },
+  {
+    "id": 11,
+    "title": "O Enigma do Quinto Sol",
+    "summary": "A descoberta de um sistema solar que não deveria existir.",
+    "date": "Ano 3410",
+    "content": "O Quinto Sol é um sistema com leis físicas levemente alteradas, onde o tempo flui de maneira assimétrica. Naves que adentram o sistema retornam com tripulações envelhecidas de forma desigual ou registros temporais contraditórios. Alguns cientistas suspeitam que o Quinto Sol seja uma ‘zona de transição’ entre universos paralelos."
+  },
+  {
+    "id": 12,
+    "title": "Último Registro Conhecido",
+    "summary": "Mensagem deixada no satélite da Arca III antes do desligamento.",
+    "date": "Ano 3499",
+    "content": "A mensagem dizia apenas: 'Nós não somos os primeiros. Nem seremos os últimos. O ciclo recomeça em cada silêncio cósmico.' O satélite se autodestruiu segundos depois. Teorias ligam essa frase ao mantra repetido pelos monges da Seita de Orm’Thal."
+  }
+]
