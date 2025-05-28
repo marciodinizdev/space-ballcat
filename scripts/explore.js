@@ -10,7 +10,8 @@ function playBubble() {
 }
 function playExplore() {
     exploreMusic.currentTime = 0;
-    exploreMusic.play()
+    exploreMusic.loop = true;
+    exploreMusic.play();
 }
 
 function blurRemove() {
